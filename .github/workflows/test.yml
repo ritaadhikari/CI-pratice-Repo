@@ -18,3 +18,17 @@ jobs:
 
       - name: Run something here
         run: node test.js
+
+      - name: run frontend
+        run: |
+          cd contact-fox-frontend
+          npm i
+          npm start  &
+
+      - name: run contact-fox-backend
+        run: |
+          cd contact-fox-backend
+          npm i
+          npm start  &
+
+      # - name: To run test
