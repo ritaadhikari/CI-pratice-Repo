@@ -31,4 +31,9 @@ jobs:
           npm i
           npm start  &
 
-      # - name: To run test
+      - name: To run test
+        run: |
+          cd  tests
+          npm i
+          cd features
+          npm run test:e2e features
