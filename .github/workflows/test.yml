@@ -38,7 +38,7 @@ jobs:
 
       - name: To run test
         run: |
-          npm i
           cd Features2
           cd tests
+          npm i
           npm run test:e2e features
