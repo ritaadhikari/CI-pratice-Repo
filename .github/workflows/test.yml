@@ -34,7 +34,7 @@ jobs:
           cd contact-fox-frontend
           npm i
           npm start  &
-          wait-for-it -h localhost -p <3000> -t 10 -q -s -- echo "frontend is running"
+          wait-for-it -h localhost -p <3000> -t 50 -q -s -- echo "frontend is running"
 
       - name: To run test
         run: |
