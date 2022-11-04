@@ -41,4 +41,4 @@ jobs:
           cd Features2
           cd tests
           npm i
-          npm run test:e2e features
+          npm run test:e2e features/userRegistration.feature
