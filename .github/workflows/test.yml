@@ -40,6 +40,6 @@ jobs:
         run: |
           cd  tests
           npm i
-          cd features2
+          cd Features2
           cd tests
           npm run test:e2e features
