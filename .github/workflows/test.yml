@@ -38,7 +38,6 @@ jobs:
 
       - name: To run test
         run: |
-          cd  tests
           npm i
           cd Features2
           cd tests
